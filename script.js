@@ -10,7 +10,7 @@ if (contactForm) {
     const submitButton = contactForm.querySelector("button[type='submit']");
 
     // Replace this with YOUR private Apps Script /exec URL
-    const scriptURL = https://script.google.com/macros/s/AKfycbzV28yAGR35k0hj0xDt5B1o4rS8zT0tUBzXGB92zbRA7hvTSZr2ZOVdhol7cWppaU7nSA/exec;
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzV28yAGR35k0hj0xDt5B1o4rS8zT0tUBzXGB92zbRA7hvTSZr2ZOVdhol7cWppaU7nSA/exec";
 
     const formData = new FormData(contactForm);
 
